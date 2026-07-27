@@ -1,7 +1,8 @@
 import random
 
 # === НАСТРОЙКИ ===
-TOKEN = "8936347604:AAE4oJJhoqmekeAgqx-h3RZNo6HhH2RWpRs"
+import os
+TOKEN = os.environ.get("TOKEN")
 
 # Папка с фото
 PHOTOS_FOLDER = "photos"
